@@ -5,3 +5,6 @@ Testing the behavior of https://github.com/PaulHatch/semantic-version under a ba
 
 ### 1.0.0
 - First stable version as a MVP
+
+### 1.1.0
+- Added a minor feature
