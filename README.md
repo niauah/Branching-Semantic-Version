@@ -8,3 +8,6 @@ Testing the behavior of https://github.com/PaulHatch/semantic-version under a ba
 
 ### 1.1.0
 - Added a minor feature
+
+### 1.2.0
+- Added some experimental feature that is not stable
