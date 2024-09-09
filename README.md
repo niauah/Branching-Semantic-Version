@@ -11,3 +11,6 @@ Testing the behavior of https://github.com/PaulHatch/semantic-version under a ba
 
 ### hotfix-1.1.0
 - Fix bug found on 1.1.0-stable
+
+### 1.2.0
+- Added some experimental feature that is not stable
