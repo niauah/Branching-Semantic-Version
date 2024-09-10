@@ -13,4 +13,7 @@ Testing the behavior of https://github.com/PaulHatch/semantic-version under a ba
 - Fix bug found on 1.1.0-stable
 
 ### 1.2.0
-- Added some experimental feature that is not stable
+- Added some experimental feature, had proved it stable
+
+### 1.3.0
+- Add another minor feature
