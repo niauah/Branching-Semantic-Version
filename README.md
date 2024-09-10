@@ -17,3 +17,6 @@ Testing the behavior of https://github.com/PaulHatch/semantic-version under a ba
 
 ### 1.3.0
 - Add another minor feature
+
+### 1.4.0
+- Add a new feature to test rebasing
