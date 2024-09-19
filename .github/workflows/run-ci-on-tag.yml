@@ -1,0 +1,12 @@
+name: Automatic versioning and tagging
+
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event on branch ${{ github.ref }}."

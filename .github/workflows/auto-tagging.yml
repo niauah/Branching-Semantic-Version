@@ -2,7 +2,7 @@ name: Automatic versioning and tagging
 
 on:
   push:
-    branches: [ 'main', 'stable' ]
+    branches: [ 'main' ]
 
 jobs:
   build:
