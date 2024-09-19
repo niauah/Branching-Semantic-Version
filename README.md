@@ -20,3 +20,6 @@ Testing the behavior of https://github.com/PaulHatch/semantic-version under a ba
 
 ### 1.4.0
 - Add a new feature to test rebasing
+
+### 1.5.0
+- Add a minor feature, start testing another merging strategy
