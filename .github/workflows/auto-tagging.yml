@@ -1,4 +1,4 @@
-name: Automatic versioning and tagging
+name: Automatic tagging and build image
 
 on:
   push:
@@ -40,3 +40,6 @@ jobs:
           tag: ${{ steps.versioning.outputs.version }}
           force_push_tag: true
           message: "Tag ${{ steps.versioning.outputs.version }} created by Github Action"
+
+      - name: Mocking build image
+        run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event on branch ${{ github.ref }}. Tagged version is ${{ steps.versioning.outputs.version }}."
