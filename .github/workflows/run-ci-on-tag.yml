@@ -9,4 +9,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event on branch ${{ github.ref }}."
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event on branch ${{ github.ref_name }}."
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event on branch ${{ github.ref_name }}."
